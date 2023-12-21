@@ -19,7 +19,7 @@ function Header() {
         <div>
             <header>
                 <div class="nav-bar">
-                    <a href="#" class="logo">Subhadip</a>
+                    <a href="/" class="logo">Subhadip</a>
                     <div class="navigation" ref={navigation}>
                         <div class="nav-items">
                             <div class="nav-close-btn" onClick={smallNavClose}></div>

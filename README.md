@@ -1,1 +1,1 @@
-Live website : https://Subhadip-Portfolio.netlify.app/
+Live website : https://subhadip-portfolio.netlify.app/

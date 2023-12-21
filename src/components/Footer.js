@@ -31,7 +31,7 @@ function Footer() {
         </div>
       </div>
       <div class="footer-copyright group">
-        <p>© 2023 by Subhadip Jana. All rights reserved.</p>
+        <p>© 2024 by Subhadip Jana. All rights reserved.</p>
       </div>
     </footer>
     </div>

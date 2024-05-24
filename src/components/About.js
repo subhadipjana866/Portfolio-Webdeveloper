@@ -16,8 +16,9 @@ function About() {
           <div class="about-info">
             <div class="description">
               <h3>I'm Subhadip</h3>
-              <h4>A <span>Full-Stack MERN Developer</span></h4>
-              <p>I design and develop services for customers specializing creating stylish, modern websites. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio
+              <h4>An <span>AI Research Engineer & MERN Stack Developer</span></h4>
+              <p>As an AI Reseacher Engineer I research, develop and implement AI models and technologies to address specific usecases.
+              As a MERN Stack Developer I design and develop services for customers specializing creating stylish, modern websites. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio
               </p>
             </div>
             <a href={resume} class="btn" download="WebResume.pdf">Download Resume <i class="fas fa-download"></i></a>

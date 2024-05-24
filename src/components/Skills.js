@@ -20,6 +20,10 @@ function Skills() {
                   <p><span>B.tech in Computer Science</span> - University of Engineering and
                     Management, Kolkata.</p>
                 </li>
+                <li class="item">
+                  <span class="year">2024</span>
+                  <p><span>IBM AI Engineering Professional Course</span> - from Coursera</p>
+                </li>
                 
                 <li class="item">
                   <span class="year">2023</span>
@@ -41,7 +45,7 @@ function Skills() {
               </ul>
             </div>
             <div class="education">
-              <h4><label>Skills</label></h4>
+              <h4><label>MERN Stack Skills</label></h4>
               <ul class="bars">
                 <li class="bar">
                   <div class="info">
@@ -109,43 +113,65 @@ function Skills() {
               </ul>
             </div>
             <div class="education">
-              <h4><label>Special Skills</label></h4>
+              <h4><label>AI Researcher Skills</label></h4>
               <ul class="edu-list">
                 <li class="bar">
                   <div class="info">
-                    <span>Communication</span>
+                    <span>Python</span>
                     <span>90%</span>
                   </div>
                   <div class="line communication"></div>
                 </li>
                 <li class="bar">
                   <div class="info">
-                    <span>Leadership</span>
+                    <span>Numpy</span>
                     <span>80%</span>
                   </div>
                   <div class="line leadership"></div>
                 </li>
                 <li class="bar">
                   <div class="info">
-                    <span>Teamwork</span>
+                    <span>Pandas</span>
                     <span>85%</span>
                   </div>
                   <div class="line teamwork"></div>
                 </li>
                 <li class="bar">
                   <div class="info">
-                    <span>Flexibility</span>
+                    <span>Keras</span>
                     <span>95%</span>
                   </div>
                   <div class="line flexibility"></div>
                 </li>
                 <li class="bar">
                   <div class="info">
-                    <span>Full Stack Development Skills</span>
-                    <span>90%</span>
+                    <span>TensorFlow</span>
+                    <span>70%</span>
                   </div>
                   <div class="line full-stack"></div>
                 </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>NLP</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line full-stack"></div>
+                </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>Prompt Engineering</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line full-stack"></div>
+                </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>RAG</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line full-stack"></div>
+                </li>
+
                 
               </ul>
             </div>
@@ -173,6 +199,26 @@ function Skills() {
               <div class="hr"></div>
               <h4><label>Upwork</label></h4>
               <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+            </div>
+            <div class="experience-card">
+              <div class="upper">
+                <h3>Machine Learning Engineer</h3>
+                <h5>Internship | Remote</h5>
+                <span>Sep 2023 - Oct 2023</span>
+              </div>
+              <div class="hr"></div>
+              <h4><label>TechnoHacks Edutech</label></h4>
+              <p>I Built a classifier neural network to classify flowers and implemented KNN to predict house price.</p>
+            </div>
+            <div class="experience-card">
+              <div class="upper">
+                <h3>AI Research Engineer</h3>
+                <h5>Internship | Remote</h5>
+                <span>Jan 2024 - Now</span>
+              </div>
+              <div class="hr"></div>
+              <h4><label>Docunexus Inc.</label></h4>
+              <p>Created prompts that can classify user queries into defined classes. Used RAG to build a document-query system. Created Data Analyst bot using OpenAI API. </p>
             </div>
           </div>
         </div>

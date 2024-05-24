@@ -13,8 +13,8 @@ function Home() {
         </div>
         <div class="info">
           <h2>Hi, I'm Subhadip</h2>
-          <h3>Full-Stack Developer | MERN Developer</h3>
-          <p>I create stunning, stylish, modern websites with reliable backend server and database management system</p>
+          <h3>AI Research Engineer | MERN Developer</h3>
+          <p>I am passionate about using technology to solve real-world problems. I am a highly motivated and results-oriented individual with a strong work ethic. I am confident that I can make a significant contribution to your team.</p>
           <a href="#contact" class="btn">Contact Me <i class="fas fa-arrow-circle-right"></i></a>
         </div>
         <div class="home-png">

@@ -3,8 +3,9 @@ import portimg1 from '../images/port-img1.jpg'
 import portimg2 from '../images/port-img2.jpg'
 import portimg3 from '../images/port-img3.jpg'
 import portimg4 from '../images/port-img4.jpg'
-import portimg5 from '../images/shattak_img.jpeg'
 import portimg6 from '../images/cake_web2.png'
+import portimg7 from '../images/gext.png'
+import portimg8 from '../images/dora.png'
 
 function Portfolio() {
 
@@ -12,8 +13,9 @@ function Portfolio() {
   const modal2 = useRef(null);
   const modal3 = useRef(null);
   const modal4 = useRef(null);
-  const modal5 = useRef(null);
   const modal6 = useRef(null);
+  const modal7 = useRef(null);
+  const modal8 = useRef(null);
   
   const ClickEvent1 = () =>{
       modal1.current.classList.add('active');
@@ -43,19 +45,25 @@ function Portfolio() {
   const CloseEvent4 = () =>{
       modal4.current.classList.remove('active');
   }
-  const ClickEvent5 = () =>{
-      modal5.current.classList.add('active');
-  }
-  
-  const CloseEvent5 = () =>{
-      modal5.current.classList.remove('active');
-  }
+
   const ClickEvent6 = () =>{
       modal6.current.classList.add('active');
   }
   
   const CloseEvent6 = () =>{
       modal6.current.classList.remove('active');
+  }
+  const ClickEvent7 = () =>{
+      modal7.current.classList.add('active');
+  }
+  const CloseEvent7 = () =>{
+      modal7.current.classList.remove('active');
+  }
+  const ClickEvent8 = () =>{
+      modal8.current.classList.add('active');
+  }
+  const CloseEvent8 = () =>{
+      modal8.current.classList.remove('active');
   }
 
   return (
@@ -139,24 +147,6 @@ function Portfolio() {
               </div>
             </div>
             <div class="img-card-container">
-              <div class="img-card" onClick={ClickEvent5}>
-                <div class="overlay"></div>
-                <div class="info">
-                  <h3>Online Educational website</h3>
-                  <span>Shattak.com</span>
-                </div>
-                <img src={portimg5} alt=""/>
-              </div>
-              <div class="portfolio-model flex-center" ref={modal5}>
-                <div class="portfolio-model-body">
-                  <i class="fas fa-times portfolio-close-btn" onClick={CloseEvent5}></i>
-                  <h3>Online Educational website</h3>
-                  <img src={portimg5} alt=""/>
-                  <p>I helped to create this Online Educational website by working on the front-end using ReactJs and Firebase. Refer to this link : <a href="https://shattak.com/">click</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="img-card-container">
               <div class="img-card" onClick={ClickEvent6}>
                 <div class="overlay"></div>
                 <div class="info">
@@ -173,6 +163,45 @@ function Portfolio() {
                   <p>I created this Online Cake Ordering website by using ReactJs, MongoDB, ExpressJs, NodeJs for full-stack development. I used Firebase to implement user authentication. This project is mainly focused on the backend part. Refer to this link : <a href="https://awesome-cake.onrender.com">click</a></p>
                 </div>
               </div>
+              
+            </div>
+            <div class="img-card-container">
+              <div class="img-card" onClick={ClickEvent7}>
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>GEXT: Gesture Based Text Editor</h3>
+                  <span>Github.com</span>
+                </div>
+                <img src={portimg7} alt=""/>
+              </div>
+              <div class="portfolio-model flex-center" ref={modal7}>
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn" onClick={CloseEvent7}></i>
+                  <h3>GEXT: Gesture Based Text Editor</h3>
+                  <img src={portimg7} alt=""/>
+                  <p>GEXT is a gesture recognition platform dedicated to help the deaf and mute people to communicate with others who may/may not know sign language, thus bridging the communication gap between. Refer to this link : <a href="https://subhadipjana866.github.io/GEXT/">click</a></p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="img-card-container">
+              <div class="img-card" onClick={ClickEvent8}>
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>DORA: Your Personal Document Explorer</h3>
+                  <span>Github.com</span>
+                </div>
+                <img src={portimg8} alt=""/>
+              </div>
+              <div class="portfolio-model flex-center" ref={modal8}>
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn" onClick={CloseEvent8}></i>
+                  <h3>DORA: Your Personal Document Explorer</h3>
+                  <img src={portimg8} alt=""/>
+                  <p>DORA is personal assistant who can explore documents and get the answers of every queries related to that document. Refer to this link : <a href="https://github.com/subhadipjana866/Dora">click</a></p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>

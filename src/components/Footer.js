@@ -7,7 +7,7 @@ function Footer() {
       <div class="footer-container">
         <div class="about group">
           <h2>Subhadip</h2>
-          <p>Full-Stack Developer | MERN Developer</p>
+          <p>AI Research Engineer | MERN Developer</p>
           <a href="#about">About Me</a>
         </div>
         <div class="hr"></div>

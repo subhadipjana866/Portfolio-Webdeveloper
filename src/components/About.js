@@ -21,7 +21,7 @@ function About() {
               As a MERN Stack Developer I design and develop services for customers specializing creating stylish, modern websites. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio
               </p>
             </div>
-            <a href={resume} class="btn" download="WebResume.pdf">Download Resume <i class="fas fa-download"></i></a>
+            <a href={resume} class="btn" download="Resume.rar">Download Resume <i class="fas fa-download"></i></a>
           </div>
         </div>
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutimage from '../images/20221218_102336.jpg'
-import resume from '../File/WebResume.pdf'
+import resume from '../File/Resume.rar'
 
 function About() {
   return (
